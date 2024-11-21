@@ -5,7 +5,10 @@
 
 2. Entre no ambiente virtual
     - Linux: source venv/bin/activate
-    - Windowns: .\venv\Scripts\activate
+    - Windowns PowerShell: .\venv\Scripts\activate
 
 3. Baixe as dependencias no ambiente virtual
     - pip install -r requirements.txt
+
+4. Apos instalar as dependencias no ambiente virtual use o comando abaixo
+    - deactivate
