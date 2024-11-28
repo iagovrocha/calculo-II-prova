@@ -37,3 +37,26 @@ pip install -r requirements.txt
 python main.py
 ```            
 ## Interação com a Calculadora
+**Quando a Calculadora estiver em excução terá um menu:**
+```bash
+    [1] - DERIVAR FUNÇÕES
+    [2] - MOSTRAR GRÁFICOS/IMAGEM/DOMINIO
+    [3] - MOSTRAR AMBOS
+```
+**Aqui o usuário podera escolher qual opção seguir.**
+### Após escolher a opção será possível digitar a função até a ordem que deseja derivar (da 1º a 3º ordem).
+```bash
+ Digite uma função (em termos de x e y): 
+ Até qual ordem você quer calcular as derivadas? 
+```
+**Após digitar os dados a aplicação será capaz de mostrar a derivada, o grafico, imagem, dominio ao depender da escolha feita.**
+
+### Exemplos de input de função:
+```bash
+    7(x**5)*(y**4) - 8(x**3)*(y**4)  
+    1/x
+    2x + 2y
+    cos(x) + sin(y)
+    tan(x) + tan(y)
+```
+
